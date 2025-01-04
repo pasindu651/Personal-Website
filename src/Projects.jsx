@@ -30,8 +30,8 @@ const Projects = () => {
               date.
             </li>
             <li>
-              -Optimizes task placement by integrating ChatGPT API with the
-              user's schedule.
+              -Optimizes task placement by integrating GPT-4o with the user's
+              schedule.
             </li>
             <li>
               -Integrates a friendly UI with login/signup system for user to
@@ -43,7 +43,7 @@ const Projects = () => {
             <li>NodeJS</li>
             <li>ReactJS</li>
             <li>MongoDB</li>
-            <li>ChatGPT API</li>
+            <li>OpenAI API</li>
           </ul>
         </div>
       </div>
