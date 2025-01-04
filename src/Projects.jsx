@@ -30,8 +30,8 @@ const Projects = () => {
               date.
             </li>
             <li>
-              -Optimizes task placement by integrating GPT-4o with the user's
-              schedule.
+              -Uses GPT-4o to determine the optimal time to schedule a task
+              using the user's existing schedule.
             </li>
             <li>
               -Integrates a friendly UI with login/signup system for user to
