@@ -25,18 +25,16 @@ const Projects = () => {
             mindfulAI
           </Link>
           <ul className="experience-details">
+            <li>-Enables users to optimize schedule using AI.</li>
             <li>
-              -Enables users to create tasks with details like duration and due
-              date.
+              -Stored user data in sessions using a MongoDB backend and
+              implemented the GPT-4o model to process requests containing
+              relevant details about the user’s schedule to determine the
+              optimal time for scheduling tasks.
             </li>
             <li>
-              -Uses GPT-4o to determine the optimal time to schedule a task
-              using the user's existing schedule.
-            </li>
-            <li>
-              -Integrates a friendly UI with login/signup system for user to
-              save tasks, navigate tasks using a calendar, and edit/delete
-              tasks.
+              -Responses seamlessly displayed on the front end using custom
+              React components.
             </li>
           </ul>
           <ul className="experience-skills">
