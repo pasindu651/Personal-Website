@@ -15,9 +15,7 @@ const SplashArea = () => {
         <Button
           color="primary"
           variant="shadow"
-          onClick={() =>
-            window.open("/src/assets/Pasindu_resume.pdf", "_blank")
-          }
+          onClick={() => window.open("/Pasindu_resume.pdf", "_blank")}
         >
           View Resume
         </Button>

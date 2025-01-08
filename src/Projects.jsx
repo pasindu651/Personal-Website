@@ -1,11 +1,11 @@
-import Project1 from "./assets/project-1.jpg";
-import Project2 from "./assets/project-2.jpg";
-import Project3 from "./assets/project-3.jpg";
-import Project4 from "./assets/project-4.jpg";
-
 import { Link } from "@nextui-org/react";
 
 const Projects = () => {
+  const Project1 = "/project-1.jpg";
+  const Project2 = "/project-2.jpg";
+  const Project3 = "/project-3.jpg";
+  const Project4 = "/project-4.jpg";
+
   return (
     <div className="projects-container">
       <h2 className="section-header">Projects</h2>
