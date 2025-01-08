@@ -70,7 +70,7 @@ const Experience = () => {
             </li>
             <li>
               -Reviewed Jenkins pipelines to troubleshoot builds and ensure
-              successful deployment.x
+              successful deployment.
             </li>
           </ul>
           <ul className="experience-skills">

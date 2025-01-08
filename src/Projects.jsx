@@ -33,7 +33,7 @@ const Projects = () => {
               optimal time for scheduling tasks.
             </li>
             <li>
-              -Responses seamlessly displayed on the front end using custom
+              -Responses seamlessly displayed on the front-end using custom
               React components.
             </li>
           </ul>
