@@ -5,11 +5,11 @@ const Projects = () => {
   const Project2 = "/project-2.jpg";
   const Project3 = "/project-3.jpg";
   const Project4 = "/project-4.jpg";
+  const Project5 = "/project-5.jpg";
 
   return (
     <div className="projects-container">
       <h2 className="section-header">Projects</h2>
-
       <div className="experience">
         <div className="project-img-wrapper">
           <img src={Project1} alt="Project 1" />
@@ -22,33 +22,74 @@ const Projects = () => {
             isExternal
             color="foreground"
           >
-            mindfulAI
+            Crate
           </Link>
           <ul className="experience-details">
-            <li>-Enables users to optimize schedule using AI.</li>
             <li>
-              -Stored user data in sessions using a MongoDB backend and
-              implemented the GPT-4o model to process requests containing
-              relevant details about the user’s schedule to determine the
-              optimal time for scheduling tasks.
+              -A mobile app that lets users track what's in their kitchen by
+              simply taking pictures of their grocery receipts
             </li>
             <li>
-              -Responses seamlessly displayed on the front-end using custom
-              React components.
+              -Uses a Donut model trained on 1000+ grocery receipts to extract
+              items and quantities from receipt images.
+            </li>
+            <li>
+              -Crate compartmentalizes grocery items, tracks expiration dates,
+              and generates recipes based on available items
             </li>
           </ul>
           <ul className="experience-skills">
+            <li>Pytorch</li>
+            <li>Donut</li>
+            <li>React Native</li>
+            <li>Spoonacular API</li>
+            <li>Flask</li>
             <li>NodeJS</li>
-            <li>ReactJS</li>
-            <li>MongoDB</li>
-            <li>OpenAI API</li>
           </ul>
         </div>
       </div>
 
       <div className="experience">
         <div className="project-img-wrapper">
-          <img src={Project2} alt="Project 2" />
+          <img src={Project2} alt="Project 1" />
+        </div>
+        <div className="experience-info-wrapper">
+          <Link
+            className="experience-name"
+            showAnchorIcon
+            href="https://github.com/pasindu651/Crate-App"
+            isExternal
+            color="foreground"
+          >
+            mindfulAI
+          </Link>
+          <ul className="experience-details">
+            <li>
+              -Enables users to create tasks with details like duration and due
+              date.
+            </li>
+            <li>
+              -Uses GPT-4o model to determine the optimal time to schedule a
+              task using the user's existing schedule.
+            </li>
+            <li>
+              -Integrates a friendly UI with login/signup system for user to
+              save tasks, navigate tasks using a calendar, and edit/delete
+              tasks.
+            </li>
+          </ul>
+          <ul className="experience-skills">
+            <li>NodeJS</li>
+            <li>ReactJS</li>
+            <li>MongoDB</li>
+            <li>ChatGPT API</li>
+          </ul>
+        </div>
+      </div>
+
+      <div className="experience">
+        <div className="project-img-wrapper">
+          <img src={Project3} alt="Project 3" />
         </div>
         <div className="experience-info-wrapper">
           <Link
@@ -88,7 +129,7 @@ const Projects = () => {
 
       <div className="experience">
         <div className="project-img-wrapper">
-          <img src={Project3} alt="Project 3" />
+          <img src={Project4} alt="Project 4" />
         </div>
         <div className="experience-info-wrapper">
           <Link
@@ -123,7 +164,7 @@ const Projects = () => {
       </div>
       <div className="experience">
         <div className="project-img-wrapper">
-          <img src={Project4} alt="Project 4" />
+          <img src={Project5} alt="Project 5" />
         </div>
         <div className="experience-info-wrapper">
           <Link

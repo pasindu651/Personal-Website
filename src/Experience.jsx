@@ -7,36 +7,41 @@ const Experience = () => {
 
       <div className="experience">
         <div className="experience-date-wrapper">
-          <p className="experience-date">Oct 2023 - Aug 2024</p>
+          <p className="experience-date">Apr 2025 - Aug 2025</p>
         </div>
         <div className="experience-info-wrapper">
           <Link
             className="experience-name"
             showAnchorIcon
-            href="https://projecttechcareers.com/"
+            href="https://www.nuagenetworks.net/solutions/nuage-managed-sd-wan-service/"
             isExternal
             color="foreground"
           >
-            Sponsorship Officer · PTC
+            Test Automation Developer (Co-op) · Nokia
           </Link>
           <ul className="experience-details">
             <li>
-              -Cold emailed 33+ companies ranging from local startups to
-              established tech firms.
+              -Developed Mocha.js backend test automation for IXR and Y.1564
+              policies, boosting test coverage by 30% and supporting 4+ router
+              families across 10+ NSP releases
             </li>
             <li>
-              -Secured sponsorship offers from top companies such as Google
-              Cloud and The Knowledge Society (TKS).
+              -Diagnosed and fixed PostgreSQL query errors in Y.1564 template
+              automation, ensuring accurate data retrieval across 140+ test
+              steps.
             </li>
             <li>
-              -Worked with regional leads to organize an annual conference and
-              hackathon.
+              -Developed custom cloud-based workstation scripts to support CAM
+              bundle-based installations and overcome sync failures, saving over
+              20+ minutes of setup time per run
             </li>
           </ul>
           <ul className="experience-skills">
-            <li>Sponsorship Management</li>
-            <li>Communication</li>
-            <li>Community Outreach</li>
+            <li>Javascript</li>
+            <li>Mocha.js</li>
+            <li>Linux</li>
+            <li>SQL</li>
+            <li>Bash</li>
           </ul>
         </div>
       </div>
@@ -81,10 +86,6 @@ const Experience = () => {
             <li>Selenium</li>
             <li>JSON</li>
             <li>YAML</li>
-            <li>Postman</li>
-            <li>Gitlab</li>
-            <li>Jira</li>
-            <li>Confluence</li>
           </ul>
         </div>
       </div>
