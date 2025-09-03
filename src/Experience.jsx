@@ -13,7 +13,7 @@ const Experience = () => {
           <Link
             className="experience-name"
             showAnchorIcon
-            href="https://www.nuagenetworks.net/solutions/nuage-managed-sd-wan-service/"
+            href="https://www.nokia.com/"
             isExternal
             color="foreground"
           >
@@ -28,7 +28,7 @@ const Experience = () => {
             <li>
               -Diagnosed and fixed PostgreSQL query errors in Y.1564 template
               automation, ensuring accurate data retrieval across 140+ test
-              steps.
+              steps
             </li>
             <li>
               -Developed custom cloud-based workstation scripts to support CAM
@@ -54,7 +54,7 @@ const Experience = () => {
           <Link
             className="experience-name"
             showAnchorIcon
-            href="https://www.nuagenetworks.net/solutions/nuage-managed-sd-wan-service/"
+            href="https://www.nokia.com/"
             isExternal
             color="foreground"
           >
@@ -63,19 +63,19 @@ const Experience = () => {
           <ul className="experience-details">
             <li>
               -Created Radish-bdd and Selenium scripts to automate the testing
-              of a Cloud Managed SD-WAN service.
+              of a Cloud Managed SD-WAN service
             </li>
             <li>
               -Leveraged cucumber reports to conduct in-depth analysis of
-              feature files, facilitating the optimization of test steps.
+              feature files, facilitating the optimization of test steps
             </li>
             <li>
               -Used configuration tools such as JSON to streamline automation
-              workflow for large-scale testing.
+              workflow for large-scale testing
             </li>
             <li>
               -Reviewed Jenkins pipelines to troubleshoot builds and ensure
-              successful deployment.
+              successful deployment
             </li>
           </ul>
           <ul className="experience-skills">
