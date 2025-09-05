@@ -21,19 +21,19 @@ const Experience = () => {
           </Link>
           <ul className="experience-details">
             <li>
-              -Developed Mocha.js backend test automation for IXR and Y.1564
+              •Developed Mocha.js backend test automation for IXR and Y.1564
               policies, boosting test coverage by 30% and supporting 4+ router
-              families across 10+ NSP releases
+              families across 10+ NSP releases.
             </li>
             <li>
-              -Diagnosed and fixed PostgreSQL query errors in Y.1564 template
+              •Diagnosed and fixed PostgreSQL query errors in Y.1564 template
               automation, ensuring accurate data retrieval across 140+ test
-              steps
+              steps.
             </li>
             <li>
-              -Developed custom cloud-based workstation scripts to support CAM
+              •Developed custom cloud-based workstation scripts to support CAM
               bundle-based installations and overcome sync failures, saving over
-              20+ minutes of setup time per run
+              20+ minutes of setup time per run.
             </li>
           </ul>
           <ul className="experience-skills">
@@ -62,20 +62,20 @@ const Experience = () => {
           </Link>
           <ul className="experience-details">
             <li>
-              -Created Radish-bdd and Selenium scripts to automate the testing
-              of a Cloud Managed SD-WAN service
+              •Created Radish-bdd and Selenium scripts to automate the testing
+              of a Cloud Managed SD-WAN service.
             </li>
             <li>
-              -Leveraged cucumber reports to conduct in-depth analysis of
-              feature files, facilitating the optimization of test steps
+              •Leveraged cucumber reports to conduct in-depth analysis of
+              feature files, facilitating the optimization of test steps.
             </li>
             <li>
-              -Used configuration tools such as JSON to streamline automation
-              workflow for large-scale testing
+              •Used configuration tools such as JSON to streamline automation
+              workflow for large-scale testing.
             </li>
             <li>
-              -Reviewed Jenkins pipelines to troubleshoot builds and ensure
-              successful deployment
+              •Reviewed Jenkins pipelines to troubleshoot builds and ensure
+              successful deployment.
             </li>
           </ul>
           <ul className="experience-skills">
