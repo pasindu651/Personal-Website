@@ -8,8 +8,8 @@ const SplashArea = () => {
       <h2>Computer Engineering @ uWaterloo</h2>
       {/* eslint-disable-next-line react/no-unescaped-entities */}
       <h3>
-        I'm a first-year student who loves machine <br></br>learning, hardware,
-        and networking.
+        I'm a hard worker and thinker who loves applying machine <br></br>
+        learning, hardware, and networking to solve real-world problems.
       </h3>
       <div className="resume-btn-container">
         <Button
