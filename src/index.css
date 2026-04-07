@@ -64,13 +64,80 @@ p {
 @media (max-width: 1024px) {
   .main-container {
     flex-direction: column;
-    height: 100%;
+    height: auto;
   }
 
-  /* Turn off vertical scrolling for .info-container */
+  .splash-container {
+    padding-top: 3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .socials-container {
+    padding-top: 2.5rem;
+  }
+
   .info-container {
-    overflow-y: hidden;
-    padding-left: 6rem;
+    overflow-y: visible;
+    padding-top: 2rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
+  }
+
+  .experience-container {
+    padding-top: 3rem;
+  }
+
+  .projects-container {
+    padding-top: 2rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .splash-container {
+    padding-top: 2rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .splash-container h1 {
+    font-size: 2rem;
+  }
+
+  .wave {
+    font-size: 36px;
+  }
+
+  .socials-container {
+    padding-top: 1.5rem;
+  }
+
+  .info-container {
+    padding-top: 1.5rem;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+
+  .experience-container {
+    padding-top: 2rem;
+  }
+
+  .experience {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .experience-date-wrapper,
+  .experience-info-wrapper {
+    width: 100%;
+  }
+
+  .project-img-wrapper {
+    width: 100%;
+  }
+
+  .project-img-wrapper img {
+    width: 100%;
   }
 }
 
