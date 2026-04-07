@@ -26,15 +26,17 @@ const Projects = () => {
             Pixl
           </Link>
           <ul className="experience-details">
-            <li>• A real-time pixel display system for rendering custom visuals on hardware displays.</li>
+            <li>
+              • A real-time system that streams live weather, scores, and music
+              from your phone to an ESP32 LED matrix.
+            </li>
           </ul>
           <ul className="experience-skills">
-            <li>Pytorch</li>
-            <li>Donut</li>
+            <li>FastAPI</li>
+            <li>ESP32 (C++)</li>
             <li>React Native</li>
-            <li>Spoonacular API</li>
-            <li>Flask</li>
-            <li>NodeJS</li>
+            <li>Docker</li>
+            <li>AWS</li>
           </ul>
         </div>
       </div>
@@ -54,7 +56,11 @@ const Projects = () => {
             Crate
           </Link>
           <ul className="experience-details">
-            <li>• An ML-powered grocery tracking app that scans receipts with a fine-tuned Donut model to manage kitchen inventory and suggest recipes.</li>
+            <li>
+              • An ML-powered grocery tracking app that scans receipts with a
+              fine-tuned Donut model to manage kitchen inventory and suggest
+              recipes.
+            </li>
           </ul>
           <ul className="experience-skills">
             <li>Pytorch</li>
@@ -82,7 +88,10 @@ const Projects = () => {
             mindfulAI
           </Link>
           <ul className="experience-details">
-            <li>• Uses GPT-4o to intelligently schedule tasks around a user's existing calendar with a full login and task management UI.</li>
+            <li>
+              • Uses GPT-4o to intelligently schedule tasks around a user's
+              existing calendar with a full login and task management UI.
+            </li>
           </ul>
           <ul className="experience-skills">
             <li>NodeJS</li>
@@ -108,7 +117,10 @@ const Projects = () => {
             Real Estate Web Scraper
           </Link>
           <ul className="experience-details">
-            <li>• Scrapes Canadian real estate listings by city and generates downloadable CSV reports with linear regression visualizations.</li>
+            <li>
+              • Scrapes Canadian real estate listings by city and generates
+              downloadable CSV reports with linear regression visualizations.
+            </li>
           </ul>
           <ul className="experience-skills">
             <li>Selenium</li>
@@ -136,7 +148,11 @@ const Projects = () => {
             ECU (Electronic Control Unit) for a Go-Kart
           </Link>
           <ul className="experience-details">
-            <li>• A Raspberry Pi ECU with 180° collision detection, adaptive buzzer warnings, music playback, and a dashboard showing speed, location, and temperature.</li>
+            <li>
+              • A Raspberry Pi ECU with 180° collision detection, adaptive
+              buzzer warnings, music playback, and a dashboard showing speed,
+              location, and temperature.
+            </li>
           </ul>
           <ul className="experience-skills">
             <li>PyQt</li>
@@ -160,7 +176,10 @@ const Projects = () => {
             Votenote
           </Link>
           <ul className="experience-details">
-            <li>• A real-time poll-making app with interactive result visualizations and a clean UI for creating and voting on topics.</li>
+            <li>
+              • A real-time poll-making app with interactive result
+              visualizations and a clean UI for creating and voting on topics.
+            </li>
           </ul>
           <ul className="experience-skills">
             <li>Django</li>
